@@ -1,14 +1,7 @@
-.container {
-    padding: 0 2rem;
-  }
-  
-  .main {
-    min-height: 100vh;
-    padding: 4rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
+.screen {
+  @apply h-screen w-full flex items-center px-10;
+}
+
+.screen h1{
+  @apply text-gray-50 text-xl sm:text-4xl;
+}
